@@ -97,16 +97,14 @@ nothing is happening. Measured on an M4 Pro MacBook Pro:
 
 ## Screenshots
 
-_Screenshots coming soon._
-
-<!--
 |  |  |
 |---|---|
-| ![Now Playing](images/screenshot-media.png) | ![HUDs](images/screenshot-hud.png) |
-| **Now Playing** — transport controls in the notch. | **HUDs** — volume and brightness, reimagined. |
-| ![Shelf](images/screenshot-shelf.png) | ![Focus](images/screenshot-focus.png) |
-| **Shelf** — stage files, AirDrop from the notch. | **Focus** — Pomodoro with keep-awake. |
--->
+| ![Now Playing](images/now-playing.png) | ![AI activities](images/ai-activities.png) |
+| **Now Playing** — album art and transport controls, right in the notch. | **AI activities** — live status of your Claude Code sessions. |
+| ![Calendar](images/calendar.png) | ![Weather](images/weather.png) |
+| **Calendar** — your week and next events, one glance away. | **Weather** — current conditions and an hourly forecast. |
+| ![Battery](images/battery.png) | ![Settings](images/settings.png) |
+| **Battery** — charge, health, and cycle count at a glance. | **Settings** — grouped, per-module toggles for everything. |
 
 ## Download
 
