@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+  <!-- App / general -->
+  <string key="app.name">Eave</string>
+  <string key="app.quit">Quit Eave</string>
+  <string key="general.settings">Settings</string>
+  <string key="general.about">About</string>
+  <string key="general.ok">OK</string>
+  <string key="general.cancel">Cancel</string>
+
+  <!-- Settings — General tab -->
+  <string key="general.tabGeneral">General</string>
+  <string key="general.startup">Startup</string>
+  <string key="general.launchAtLogin">Launch Eave at login</string>
+  <string key="general.menuBar">Menu Bar</string>
+  <string key="general.showMenuBarIcon">Show menu bar icon</string>
+  <string key="general.showMenuBarIconNote">The notch stays available even when the icon is hidden.</string>
+  <string key="general.language">Language</string>
+  <string key="general.languageSystem">System</string>
+  <string key="general.languageNote">Changes apply immediately.</string>
+
+  <!-- Settings — About tab -->
+  <string key="about.version">v%1</string>
+  <string key="about.tagline">Turn your notch into a native live-activities hub.</string>
+  <string key="about.sponsorGitHub">Sponsor on GitHub</string>
+  <string key="about.sponsorGitHubSubtitle">Support development</string>
+  <string key="about.buyCoffee">Buy Me a Coffee</string>
+  <string key="about.buyCoffeeSubtitle">A small thank you goes a long way</string>
+  <string key="about.github">GitHub</string>
+  <string key="about.translations">Translations</string>
+  <string key="about.reportIssue">Report Issue</string>
+  <string key="about.acknowledgements">Acknowledgements</string>
+
+  <!-- Updates -->
+  <string key="update.check">Check for Updates</string>
+  <string key="update.checking">Checking…</string>
+  <string key="update.available">Update Available</string>
+  <string key="update.upToDate">You're up to date!</string>
+  <string key="update.download">Download</string>
+  <string key="update.install">Install Now</string>
+  <string key="update.version">Version %1</string>
+
+  <!-- Menu bar dropdown -->
+  <string key="menubar.openNotch">Open Notch</string>
+  <string key="menubar.settings">Settings…</string>
+  <string key="menubar.checkUpdates">Check for Updates…</string>
+  <string key="menubar.quit">Quit Eave</string>
+
+  <!-- Media module -->
+  <string key="media.nothingPlaying">Nothing Playing</string>
+  <string key="media.unknownTitle">Unknown Title</string>
+  <string key="media.previous">Previous</string>
+  <string key="media.playPause">Play/Pause</string>
+  <string key="media.next">Next</string>
+
+  <!-- Settings — HUDs tab -->
+  <string key="huds.tab">HUDs</string>
+  <string key="huds.system">System HUD</string>
+  <string key="huds.replaceSystemHUD">Replace system HUD</string>
+  <string key="huds.replaceSystemHUDNote">Show volume, brightness, and keyboard backlight changes in the notch instead of the system bezel.</string>
+  <string key="huds.accessibilityNeeded">Eave needs Accessibility access to intercept the media keys.</string>
+  <string key="huds.openSystemSettings">Open System Settings</string>
+  <string key="huds.appearance">Appearance</string>
+  <string key="huds.showPercentage">Show percentage</string>
+  <string key="huds.volume">Volume</string>
+  <string key="huds.volumeFeedbackSound">Play feedback sound when volume changes</string>
+
+  <!-- Battery module -->
+  <string key="battery.flash.charging">Charging</string>
+  <string key="battery.flash.chargingStarted">Charging started</string>
+  <string key="battery.flash.chargerRemoved">Charger removed</string>
+  <string key="battery.flash.charged">Fully Charged</string>
+  <string key="battery.flash.onBattery">On Battery</string>
+  <string key="battery.flash.low">Low battery — %1%</string>
+
+  <!-- Calendar module -->
+  <string key="calendar.access.title">Calendar access needed</string>
+  <string key="calendar.access.body">Grant access to Calendars and Reminders to see your day in the notch.</string>
+  <string key="calendar.access.grant">Grant Access</string>
+  <string key="calendar.access.denied">Calendar access is turned off or limited to adding events. Enable full access for Eave in System Settings.</string>
+  <string key="calendar.access.openSettings">Open System Settings</string>
+  <string key="calendar.allDay">All day</string>
+  <string key="calendar.join">Join</string>
+  <string key="calendar.reminders">Reminders</string>
+  <string key="calendar.reminder.complete">Mark complete</string>
+  <string key="calendar.empty.day">No events — enjoy your free time!</string>
+  <string key="calendar.compact.in">in %1 min</string>
+  <string key="calendar.compact.now">now</string>
+
+  <!-- Shelf module -->
+  <string key="shelf.toolbar.count">%1 items</string>
+  <string key="shelf.toolbar.airdrop">AirDrop</string>
+  <string key="shelf.toolbar.clear">Clear</string>
+  <string key="shelf.toolbar.clear.help">Remove all unpinned items</string>
+  <string key="shelf.menu.open">Open</string>
+  <string key="shelf.menu.reveal">Reveal in Finder</string>
+  <string key="shelf.menu.airdrop">AirDrop</string>
+  <string key="shelf.menu.pin">Pin</string>
+  <string key="shelf.menu.unpin">Unpin</string>
+  <string key="shelf.menu.copy">Copy</string>
+  <string key="shelf.menu.remove">Remove</string>
+  <string key="shelf.empty.title">Shelf is empty</string>
+  <string key="shelf.empty.hint">Drop files here to keep them handy</string>
+
+  <!-- Clipboard module -->
+  <string key="clipboard.tab">Clipboard</string>
+  <string key="clipboard.search.placeholder">Search clipboard…</string>
+  <string key="clipboard.search.noResults">No matches</string>
+  <string key="clipboard.copied">Copied</string>
+  <string key="clipboard.menu.copy">Copy</string>
+  <string key="clipboard.menu.pin">Pin</string>
+  <string key="clipboard.menu.unpin">Unpin</string>
+  <string key="clipboard.menu.remove">Remove</string>
+  <string key="clipboard.footer.count">%1 items</string>
+  <string key="clipboard.footer.clear">Clear</string>
+  <string key="clipboard.footer.clear.help">Remove all unpinned items</string>
+  <string key="clipboard.empty.title">Clipboard history is empty</string>
+  <string key="clipboard.empty.hint">Everything you copy shows up here</string>
+  <string key="clipboard.settings.section.general">History</string>
+  <string key="clipboard.settings.enable">Keep clipboard history</string>
+  <string key="clipboard.settings.maxEntries">Maximum entries</string>
+  <string key="clipboard.settings.section.excluded">Excluded apps</string>
+  <string key="clipboard.settings.excluded.empty">No excluded apps</string>
+  <string key="clipboard.settings.excluded.add">Add App…</string>
+  <string key="clipboard.settings.excluded.addPrompt">Choose an app to exclude</string>
+  <string key="clipboard.settings.excluded.note">Password managers and concealed or transient pasteboards are always skipped.</string>
+  <string key="clipboard.settings.excluded.remove">Remove</string>
+  <string key="clipboard.browser.title">Clipboard History</string>
+  <string key="clipboard.footer.openWindow">Open Window</string>
+  <string key="clipboard.footer.openWindow.help">Browse and search the full history in a resizable window</string>
+
+  <!-- Focus module -->
+  <string key="focus.phase.idle">Ready</string>
+  <string key="focus.phase.work">Focus</string>
+  <string key="focus.phase.shortBreak">Short Break</string>
+  <string key="focus.phase.longBreak">Long Break</string>
+  <string key="focus.phase.paused">Paused</string>
+  <string key="focus.start">Start</string>
+  <string key="focus.pause">Pause</string>
+  <string key="focus.resume">Resume</string>
+  <string key="focus.skip">Skip</string>
+  <string key="focus.reset">Reset</string>
+  <string key="focus.sessions.help">%1 sessions completed</string>
+  <string key="focus.caffeinate.title">Keep Mac awake</string>
+  <string key="focus.caffeinate.until">Until %1</string>
+  <string key="focus.caffeinate.indefinite">Until you turn it off</string>
+  <string key="focus.config.title">Durations</string>
+  <string key="focus.config.work">Focus</string>
+  <string key="focus.config.shortBreak">Short break</string>
+  <string key="focus.config.longBreak">Long break</string>
+  <string key="focus.config.sessions">Sessions before long break</string>
+  <string key="focus.config.minutes">%1 min</string>
+  <string key="focus.config.note">Applies from the next work cycle.</string>
+  <string key="focus.compact.minutes">%1m</string>
+  <string key="focus.compact.hours">%1h</string>
+  <string key="focus.compact.hoursMinutes">%1h %2m</string>
+  <string key="focus.notification.workDone.title">Focus session complete</string>
+  <string key="focus.notification.workDone.body">Time for a break — you earned it.</string>
+
+  <!-- Claude Code monitor -->
+  <string key="claude.compact.working">%1 working</string>
+  <string key="claude.compact.needsInput">needs input</string>
+  <string key="claude.state.working">Working</string>
+  <string key="claude.state.awaitingInput">Needs input</string>
+  <string key="claude.state.idle">Idle</string>
+  <string key="claude.tab.empty">No active Claude Code sessions</string>
+  <string key="claude.tab.emptyProvider">No active %1 sessions</string>
+  <string key="claude.tab.notDetected">Claude Code not detected</string>
+  <string key="claude.tab.notDetectedHint">Transcripts appear at ~/.claude/projects once Claude Code has run.</string>
+  <string key="claude.row.revealTranscript">Reveal Transcript in Finder</string>
+  <string key="claude.relative.now">now</string>
+  <string key="claude.relative.minutes">%1m</string>
+  <string key="claude.relative.hours">%1h</string>
+  <string key="claude.relative.days">%1d</string>
+
+  <!-- Settings — Displays tab -->
+  <string key="displays.tab">Displays</string>
+  <string key="displays.builtInNote">Physical notch — always on</string>
+  <string key="displays.notchStyle">Notch style</string>
+  <string key="displays.styleOff">Off</string>
+  <string key="displays.styleSimulated">Simulated notch</string>
+  <string key="displays.styleIsland">Island pill</string>
+  <string key="displays.notchWidth">Notch width</string>
+  <string key="displays.activityWidth">Activity width</string>
+  <string key="displays.activityWidth.note">How wide each side of the notch grows when music or another live activity is showing. Applies to every display.</string>
+  <string key="displays.showHUDs">Show HUDs on this display</string>
+  <string key="displays.ddcBrightness">Control brightness via DDC</string>
+  <string key="displays.ddcNote">Experimental — requires Apple Silicon; some monitors ignore DDC.</string>
+  <string key="displays.ddcUnavailable">DDC control requires an Apple Silicon Mac.</string>
+  <string key="displays.ddcTest">Test</string>
+  <string key="displays.ddcTestReading">Reading…</string>
+  <string key="displays.ddcTestResult">Brightness %1 of %2</string>
+  <string key="displays.ddcTestFailed">No response — this monitor may not support DDC.</string>
+  <string key="displays.noExternalNote">Connect an external display to configure it here.</string>
+
+  <!-- General — notch behavior -->
+  <string key="general.notchBehavior">Notch behavior</string>
+  <string key="general.hideInFullscreen">Hide notch in full screen</string>
+
+  <!-- Onboarding -->
+  <string key="onboarding.page1.title">Your notch is already alive</string>
+  <string key="onboarding.page1.subtitle">Eave started working the moment it launched — no setup, no permission prompts.</string>
+  <string key="onboarding.feature.media.title">Media detection</string>
+  <string key="onboarding.feature.media.subtitle">Now playing with artwork and controls, right in the notch.</string>
+  <string key="onboarding.feature.battery.title">Battery watch</string>
+  <string key="onboarding.feature.battery.subtitle">Charging state and low-battery warnings at a glance.</string>
+  <string key="onboarding.feature.shelf.title">File shelf</string>
+  <string key="onboarding.feature.shelf.subtitle">Drag files onto the notch to stash them for later.</string>
+  <string key="onboarding.feature.clipboard.title">Clipboard history</string>
+  <string key="onboarding.feature.clipboard.subtitle">Everything you copy, searchable in the notch.</string>
+  <string key="onboarding.feature.claude.title">Claude activity</string>
+  <string key="onboarding.feature.claude.subtitle">Live Claude Code sessions surface as activities.</string>
+  <string key="onboarding.zeroPermissions">No permissions needed</string>
+  <string key="onboarding.continue">Continue</string>
+  <string key="onboarding.page2.title">Optional superpowers</string>
+  <string key="onboarding.page2.subtitle">Grant only what you want — every card is optional.</string>
+  <string key="onboarding.card.hud.title">Replace system HUDs</string>
+  <string key="onboarding.card.hud.subtitle">Volume and brightness rendered in the notch instead of the system bezels. Needs Accessibility.</string>
+  <string key="onboarding.card.calendar.title">Calendar</string>
+  <string key="onboarding.card.calendar.subtitle">See your next meeting and join video calls from the notch.</string>
+  <string key="onboarding.card.reminders.title">Reminders</string>
+  <string key="onboarding.card.reminders.subtitle">Check off reminders without leaving the notch.</string>
+  <string key="onboarding.grant">Grant</string>
+  <string key="onboarding.openSettings">Open System Settings</string>
+  <string key="onboarding.status.granted">Granted</string>
+  <string key="onboarding.status.notDetermined">Not requested</string>
+  <string key="onboarding.status.denied">Denied</string>
+  <string key="onboarding.back">Back</string>
+  <string key="onboarding.footer">You can change all of this later in Settings.</string>
+  <string key="onboarding.done">Done</string>
+
+  <!-- Settings — Shortcuts tab -->
+  <string key="shortcuts.tab">Shortcuts</string>
+  <string key="shortcuts.global">Global Shortcuts</string>
+  <string key="shortcuts.toggleNotch">Toggle notch</string>
+  <string key="shortcuts.toggleCaffeinate">Toggle keep-awake</string>
+  <string key="shortcuts.note">Shortcuts work system-wide while Eave is running.</string>
+  <string key="shortcuts.modifierNote">Global shortcuts need at least one modifier key (⌘ ⌥ ⌃ ⇧).</string>
+  <string key="shortcuts.pressKeys">Press shortcut…</string>
+  <string key="shortcuts.record">Record Shortcut</string>
+  <string key="shortcuts.clear">Clear shortcut</string>
+
+  <!-- Claude mission control -->
+  <string key="claude.card.context">%1% context</string>
+  <string key="claude.card.turns">%1 turns</string>
+  <string key="claude.card.tokens">%1 in · %2 out</string>
+  <string key="claude.card.agents">%1 agents</string>
+  <string key="claude.footer.summary">Today: %1 tokens · %2 · 5h window: %3</string>
+  <string key="claude.alert.needsInput.title">Claude needs input</string>
+  <string key="claude.alert.needsInput.body">%1 is waiting on you</string>
+  <string key="claude.alert.turnFinished.title">Claude turn finished</string>
+  <string key="claude.alert.turnFinished.body">%1 finished its turn</string>
+  <string key="general.claudeAlerts">Claude alerts</string>
+  <string key="general.claudeAlertsNeedsInput">Notify when a session needs input</string>
+  <string key="general.claudeAlertsTurnFinished">Notify when a turn finishes</string>
+  <string key="general.claudeAlertsNote">macOS notifications for Claude Code sessions. Needs-input alerts play a sound; turn-finished alerts are silent.</string>
+
+  <!-- Camera mirror -->
+  <string key="camera.access.title">Camera access needed</string>
+  <string key="camera.access.body">Grant access to the camera to check yourself before a call.</string>
+  <string key="camera.access.grant">Grant Access</string>
+  <string key="camera.access.denied">Camera access is turned off. Enable it for Eave in System Settings.</string>
+  <string key="camera.access.openSettings">Open System Settings</string>
+  <string key="camera.starting">Starting camera…</string>
+  <string key="camera.none">No camera detected.</string>
+  <string key="camera.error">The camera could not be started.</string>
+  <string key="camera.picker">Camera</string>
+  <string key="camera.footer">Camera is only active while this tab is open.</string>
+
+  <!-- Battery tab + Bluetooth devices -->
+  <string key="battery.flash.deviceConnected">%1 — %2%</string>
+  <string key="battery.tab.devices">Devices</string>
+  <string key="battery.tab.lowPower">Low Power Mode</string>
+  <string key="battery.tab.noBattery">No built-in battery</string>
+  <string key="battery.tab.timeToFull">%1 until full</string>
+  <string key="battery.tab.remaining">%1 remaining</string>
+
+  <!-- Weather -->
+  <string key="weather.setup.title">Set your location</string>
+  <string key="weather.setup.body">Search for a city to see current conditions and the forecast.</string>
+  <string key="weather.search.placeholder">Search city…</string>
+  <string key="weather.search.empty">No matching cities found.</string>
+  <string key="weather.search.cancel">Cancel</string>
+  <string key="weather.changeLocation">Change location</string>
+  <string key="weather.refresh">Refresh</string>
+  <string key="weather.unit.toggle">Switch between Celsius and Fahrenheit</string>
+  <string key="weather.feelsLike">Feels like %1</string>
+  <string key="weather.highLow">H:%1  L:%2</string>
+  <string key="weather.wind">Wind %1 km/h</string>
+  <string key="weather.humidity">Humidity %1%</string>
+  <string key="weather.now">Now</string>
+  <string key="weather.today">Today</string>
+  <string key="weather.condition.clear">Clear</string>
+  <string key="weather.condition.partly">Partly cloudy</string>
+  <string key="weather.condition.fog">Fog</string>
+  <string key="weather.condition.rain">Rain</string>
+  <string key="weather.condition.snow">Snow</string>
+  <string key="weather.condition.showers">Showers</string>
+  <string key="weather.condition.storm">Thunderstorm</string>
+  <string key="weather.condition.cloudy">Cloudy</string>
+
+  <!-- Lyrics -->
+  <string key="media.lyrics.toggle">Lyrics</string>
+  <string key="media.lyrics.loading">Searching for lyrics…</string>
+  <string key="media.lyrics.notFound">No lyrics found</string>
+  <string key="media.lyrics.instrumental">Instrumental</string>
+
+  <!-- Battery health -->
+  <string key="battery.health.title">Battery Health</string>
+  <string key="battery.health.maxCapacity">Maximum Capacity</string>
+  <string key="battery.health.cycleCount">Cycle Count</string>
+  <string key="battery.health.condition">Condition</string>
+  <string key="battery.health.temperature">Temperature</string>
+  <string key="battery.health.conditionNormal">Normal</string>
+  <string key="battery.health.conditionService">Service Recommended</string>
+
+  <!-- Weather location -->
+  <string key="weather.location.useCurrent">Use current location</string>
+  <string key="weather.location.failed">Couldn't get your location — enable Location Services or search for a city.</string>
+  <string key="weather.location.currentFallback">Current location</string>
+
+  <!-- Notch playback progress (F1) -->
+  <string key="general.mediaProgressBar">Show playback progress under the notch</string>
+
+  <!-- Shelf: share, copy path, pinned folders (F3) -->
+  <string key="shelf.menu.share">Share…</string>
+  <string key="shelf.menu.copyPath">Copy Path</string>
+  <string key="shelf.pinnedFolders.title">Pinned Folders</string>
+  <string key="shelf.pinnedFolders.add">Pin Folder…</string>
+  <string key="shelf.pinnedFolders.addPrompt">Pin</string>
+
+  <!-- Claude usage budgets (F4) -->
+  <string key="claude.usage.title">Usage</string>
+  <string key="claude.usage.fiveHour">5-hour window</string>
+  <string key="claude.usage.week">This week</string>
+  <string key="claude.usage.session">Current session</string>
+  <string key="claude.usage.modelWeek">%1 · week</string>
+  <string key="general.codexNote">Codex usage is read from Codex CLI's local session logs, so it only updates after a Codex turn. Percentages match Codex's /status command.</string>
+  <string key="codex.usage.asOf">Data as of %1 ago</string>
+  <string key="codex.usage.waiting">Waiting for Codex activity — usage appears after the next Codex turn.</string>
+  <string key="codex.account.apiKey">API key</string>
+  <string key="claude.usage.resets">resets in %1</string>
+  <string key="general.claudeBudgets">Claude usage budgets</string>
+  <string key="general.claudeBudget5h">5-hour token budget</string>
+  <string key="general.claudeBudgetWeekly">Weekly token budget</string>
+  <string key="general.claudeBudgetsNote">Track estimated Claude Code token usage against your plan's limits. The 5-hour gauge follows Claude's session clock (your first message starts it; it resets 5 hours later). Counts are estimates from visible sessions — calibrate budgets against claude.ai's usage page. Zero hides a gauge; a notification fires at 85%.</string>
+  <string key="claude.alert.budget.title">Claude usage nearing limit</string>
+  <string key="claude.alert.budget.body">%1 usage has reached %2% of your budget.</string>
+
+  <!-- Audio output switcher (F6) -->
+  <string key="media.output">Audio output</string>
+
+  <!-- Module names (notch tab labels) -->
+  <string key="module.media">Media</string>
+  <string key="module.calendar">Calendar</string>
+  <string key="module.weather">Weather</string>
+  <string key="module.shelf">Shelf</string>
+  <string key="module.clipboard">Clipboard</string>
+  <string key="module.camera">Camera</string>
+  <string key="module.focus">Focus</string>
+  <string key="module.claude">Claude</string>
+  <string key="module.battery">Battery</string>
+
+  <!-- ===== Settings redesign ===== -->
+
+  <!-- Sidebar groups + new tab titles -->
+  <string key="settings.group.general">General</string>
+  <string key="settings.group.modules">Modules</string>
+  <string key="settings.group.system">System</string>
+  <string key="settings.tabDev">AI activities</string>
+
+  <!-- Appearance tab -->
+  <string key="appearance.tab">Appearance</string>
+  <string key="appearance.accent.title">Accent color</string>
+  <string key="appearance.accent.note">Tints active modules, controls, and progress across Eave and the notch.</string>
+  <string key="appearance.accent.system">System</string>
+  <string key="appearance.accent.ice">Ice</string>
+  <string key="appearance.accent.aqua">Aqua</string>
+  <string key="appearance.accent.violet">Violet</string>
+  <string key="appearance.accent.green">Green</string>
+  <string key="appearance.accent.amber">Amber</string>
+  <string key="appearance.accent.pink">Pink</string>
+  <string key="appearance.notch.title">Notch</string>
+  <string key="appearance.tabs.title">Notch tabs</string>
+  <string key="appearance.tabs.note">Use the arrows to reorder how tabs appear in the notch. Turn a module off to hide it everywhere.</string>
+
+  <!-- Media settings -->
+  <string key="media.settings.enable">Enable Media</string>
+  <string key="media.settings.liveActivity">Live activity</string>
+  <string key="media.settings.showLyrics">Show lyrics under the track</string>
+  <string key="media.settings.timeout">Keep showing paused media for</string>
+  <string key="media.settings.seconds">%1 s</string>
+  <string key="media.settings.note">Works with any app that reports Now Playing to macOS.</string>
+
+  <!-- Calendar settings -->
+  <string key="calendar.settings.enable">Enable Calendar</string>
+  <string key="calendar.settings.events">Events</string>
+  <string key="calendar.settings.hideAllDay">Hide all-day events</string>
+  <string key="calendar.settings.showReminders">Show reminders</string>
+  <string key="calendar.settings.calendars">Calendars</string>
+  <string key="calendar.settings.calendarsNote">Choose which calendars appear in the notch. All are shown when none are selected.</string>
+  <string key="calendar.settings.accessNeeded">Grant calendar access to choose which calendars appear.</string>
+  <string key="calendar.settings.note">Your next event surfaces in the notch as it approaches.</string>
+
+  <!-- Battery settings -->
+  <string key="battery.settings.enable">Enable Battery</string>
+  <string key="battery.settings.display">Display</string>
+  <string key="battery.settings.showPersistent">Always show battery percentage</string>
+  <string key="battery.settings.showPersistentNote">Keeps a small percentage beside the notch, not only on plug and unplug.</string>
+  <string key="battery.settings.note">Charging, low-battery, and Bluetooth accessory levels flash in the notch.</string>
+
+  <!-- Shelf settings -->
+  <string key="shelf.settings.enable">Enable Shelf</string>
+  <string key="shelf.settings.behavior">Behavior</string>
+  <string key="shelf.settings.showBadge">Show item-count badge</string>
+  <string key="shelf.settings.maxItems">Maximum items</string>
+  <string key="shelf.settings.note">Drop files on the notch to stash them; drag them out when you need them.</string>
+
+  <!-- Weather settings -->
+  <string key="weather.settings.enable">Enable Weather</string>
+  <string key="weather.settings.units">Units</string>
+  <string key="weather.settings.temperature">Temperature</string>
+  <string key="weather.settings.celsius">°C</string>
+  <string key="weather.settings.fahrenheit">°F</string>
+  <string key="weather.settings.location">Location</string>
+  <string key="weather.settings.noLocation">No location set</string>
+  <string key="weather.settings.locationNote">Search for a city from the Weather tab in the notch.</string>
+  <string key="weather.settings.note">Forecasts come from Open-Meteo. No account needed.</string>
+
+  <!-- Focus settings -->
+  <string key="focus.settings.enable">Enable Focus</string>
+  <string key="focus.settings.timer">Timer</string>
+  <string key="focus.settings.keepAwake">Keep awake</string>
+  <string key="focus.settings.caffeinateDuringWork">Keep the Mac awake during focus</string>
+  <string key="focus.settings.caffeinateDuringWorkNote">Automatically prevents sleep while a focus cycle is running.</string>
+  <string key="focus.settings.note">A Pomodoro timer lives in the notch; these set its defaults.</string>
+
+  <!-- Camera settings -->
+  <string key="camera.settings.enable">Enable Camera</string>
+  <string key="camera.settings.note">Pick a camera and mirror it from the Camera tab in the notch. The camera only runs while that tab is open.</string>
+
+  <!-- Dev activities settings -->
+  <string key="dev.settings.enable">Enable AI activities</string>
+  <string key="dev.settings.note">Live Claude Code, Codex, and Gemini sessions surface in the notch.</string>
+</strings>
