@@ -43,6 +43,17 @@ panel that merges invisibly with the hardware cutout. 100% free.
 
 ---
 
+
+<!-- os27-compatibility:start -->
+## OS 27 compatibility
+
+Updated 2026-09-16.
+
+- **GitHub — Version 1.1.2:** OS 27 compatibility checked with Xcode 27 builds and automated regression tests. The universal download restores the bundled media framework’s macOS 14 minimum requirement.
+
+Checks use Xcode 27 builds and automated tests where available. Full testing on physical devices has not been completed. Minimum OS requirements are unchanged.
+<!-- os27-compatibility:end -->
+
 ## Why Eave
 
 ### Reliable
@@ -51,8 +62,8 @@ panel that merges invisibly with the hardware cutout. 100% free.
   developer" wall, ever.
 - **Survives sleep/wake and display changes** — the notch panel re-attaches
   cleanly when you close the lid, dock, or unplug a monitor.
-- **Built-in updater** — no Sparkle, no background daemons; About → Check Now
-  queries GitHub Releases directly.
+- **Built-in updater** — Settings → About → Check for Updates → Install Now.
+  Checks GitHub Releases directly.
 
 ### Light
 
@@ -106,22 +117,23 @@ nothing is happening. Measured on an M4 Pro MacBook Pro:
 | ![Battery](images/battery.png) | ![Settings](images/settings.png) |
 | **Battery** — charge, health, and cycle count at a glance. | **Settings** — grouped, per-module toggles for everything. |
 
-## Download
+## Update or install
 
-Grab the latest signed `.zip` from the
-[**Releases**](https://github.com/beyondthecode-bc/Eave/releases/latest) page.
-Unzip, move `Eave.app` to Applications, and launch. Every release is
-Developer-ID signed and notarized by Apple.
+1. **Existing users — update in app:** Open **Settings > About > Check for Updates > Install Now**. The installer verifies the downloaded ZIP against its published checksum.
+2. **New installation:** download [**`Eave-1.1.2.zip`**](https://github.com/beyondthecode-bc/Eave/releases/download/v1.1.2/Eave-1.1.2.zip), extract it, and move **`Eave.app`** to **Applications**.
+3. **Manual fallback:** if the in-app updater is unavailable or fails, quit the app, extract the same ZIP, and replace the existing app in Applications.
 
-### Verify your download (optional)
+## Verify the download
 
-Each release's notes include a SHA-256 checksum. To verify:
+- Signed with Developer ID, hardened runtime and a secure timestamp. Apple notarization accepted; ticket stapled; Gatekeeper verification passed.
+- VirusTotal: **0 malicious, 0 suspicious**; 64 undetected, 3 timeout, 7 type-unsupported. [View the exact-file report](https://www.virustotal.com/gui/file/3150a5793df9651f00a2dffa2cb076563b4d67896751a1972456081719feec94).
+- Asset: **`Eave-1.1.2.zip`** (version **1.1.2**, build **5**). The sibling **`Eave-1.1.2.zip.sha256`** contains the same checksum.
 
-```sh
-shasum -a 256 ~/Downloads/Eave-*.zip
+**SHA-256**
+
+```text
+3150a5793df9651f00a2dffa2cb076563b4d67896751a1972456081719feec94
 ```
-
-The output must match the checksum in the release notes exactly.
 
 ## Requirements
 
